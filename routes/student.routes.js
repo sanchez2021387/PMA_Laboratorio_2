@@ -37,7 +37,7 @@ router.post(
     "/",
     [
         check("name", "The name is mandatory").not().isEmpty(),
-        check("password", "The password must be greater than 7 characters").isLength({ min: 7 }),
+        check("password", "The password must be greater than 5 characters").isLength({ min: 5 }),
         //check("subject", "subject is required"),
         check("email", "This is not a valid email").isEmail(),
         check("email").custom(existeStudent),
