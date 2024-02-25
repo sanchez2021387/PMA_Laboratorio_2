@@ -1,0 +1,80 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Students",
+    "dateExported": "2024-02-25T08:19:43.376Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "be99267a-2048-4dc9-ba4f-9e76a7ad88e2",
+            "colId": "194d2fdb-9324-4198-94c2-a776cc79bd63",
+            "containerId": "",
+            "name": "studentsPost",
+            "url": "http://localhost:3000/api/student",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-25T07:39:41.657Z",
+            "modified": "2024-02-25T07:52:35.389Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Junior\",\n  \"email\": \"Junior387@kinal.edu.gt\",\n  \"password\" : \"12345\",\n  \"subject\" : []\n} ",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7238a4e1-1b64-4942-a7c8-2ecebfd653bf",
+            "colId": "194d2fdb-9324-4198-94c2-a776cc79bd63",
+            "containerId": "",
+            "name": "studentsPut",
+            "url": "http://localhost:3000/api/student/",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-02-25T07:45:55.394Z",
+            "modified": "2024-02-25T08:14:54.935Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\" : \"Hector Rodriguez\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cc5a597d-6096-465e-99b0-aef8d9cbdf4c",
+            "colId": "194d2fdb-9324-4198-94c2-a776cc79bd63",
+            "containerId": "",
+            "name": "studentDelete",
+            "url": "http://localhost:3000/api/student/",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-02-25T07:47:15.013Z",
+            "modified": "2024-02-25T08:14:49.591Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3ae20ad8-4503-434a-a1ff-fbf3184d40bd",
+            "colId": "194d2fdb-9324-4198-94c2-a776cc79bd63",
+            "containerId": "",
+            "name": "subjectCoursesPut",
+            "url": "http://localhost:3000/api/student",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-25T07:47:44.382Z",
+            "modified": "2024-02-25T08:14:41.735Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"subject\" : [\"Ingles\", \"Biologia\",\"Taller\"]\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

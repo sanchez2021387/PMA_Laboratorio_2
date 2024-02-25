@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Courses",
+    "dateExported": "2024-02-25T08:20:05.359Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f0a8ed2c-194f-428d-bc05-58ca6f3ceb6d",
+            "colId": "d8cfd553-7e61-4e50-8bf9-b51b501ba481",
+            "containerId": "",
+            "name": "coursesPost",
+            "url": "http://localhost:3000/api/courses",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-25T08:12:16.905Z",
+            "modified": "2024-02-25T08:15:53.166Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\" : \"Etica\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c394e848-1915-4023-8366-61ed4a390f88",
+            "colId": "d8cfd553-7e61-4e50-8bf9-b51b501ba481",
+            "containerId": "",
+            "name": "coursesGet",
+            "url": "http://localhost:3000/api/courses/65d2684ad6c498edcd4ef413",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-25T08:16:07.737Z",
+            "modified": "2024-02-25T08:18:37.593Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "598705ea-b864-489a-8987-560ecdd40cd5",
+            "colId": "d8cfd553-7e61-4e50-8bf9-b51b501ba481",
+            "containerId": "",
+            "name": "getCoursesById",
+            "url": "http://localhost:3000/api/courses/65d2684ad6c498edcd4ef413",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-25T08:17:01.300Z",
+            "modified": "2024-02-25T08:18:36.248Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b5767076-84c9-473b-bc7e-a2c20bd8fc73",
+            "colId": "d8cfd553-7e61-4e50-8bf9-b51b501ba481",
+            "containerId": "",
+            "name": "coursesPut",
+            "url": "http://localhost:3000/api/courses/65d2684ad6c498edcd4ef413",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-25T08:17:41.421Z",
+            "modified": "2024-02-25T08:18:32.420Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\" : \"FIFU II\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a4933339-df61-4669-8f8b-fc30c89a85d8",
+            "colId": "d8cfd553-7e61-4e50-8bf9-b51b501ba481",
+            "containerId": "",
+            "name": "coursesDelete",
+            "url": "http://localhost:3000/api/courses/65d2684ad6c498edcd4ef413",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-25T08:18:58.535Z",
+            "modified": "2024-02-25T08:19:30.319Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
