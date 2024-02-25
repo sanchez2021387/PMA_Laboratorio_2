@@ -1,11 +1,11 @@
 const { Schema, model} = require('mongoose');
 const StudentSchema = Schema({
     
-    nombre: {
+    name: {
         type: String,
         required: [true, 'The name is required']
     },
-    correo: {
+    email: {
         type: String,
         required: [true, 'The Email is required']
     },
@@ -14,7 +14,7 @@ const StudentSchema = Schema({
         type: String,
         required: [true, 'The password is required']
     },
-    asignatura: {
+    subject: {
         type: [String]
     },
     role: {
